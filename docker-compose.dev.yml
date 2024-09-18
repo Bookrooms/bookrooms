@@ -1,0 +1,6 @@
+services:
+  frontend:
+    command: ./entrypoint.sh
+    ports:
+      - 5173:5173
+  
